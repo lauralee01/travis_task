@@ -2,8 +2,8 @@ let sinon = require("sinon"),
 	chai = require("chai"),
 	expect = chai.expect,
 	should = chai.should(),
-	Greeting = require('./app.js'),
-	logger   = require("./logger.js");
+	Greeting = require('../src/app.js'),
+	logger   = require("../src/logger.js");
 
 describe("Greeting App", function() {
 
