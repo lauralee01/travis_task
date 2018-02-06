@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  laura:
+    build:
+      context: .
+      dockerfile: index.Dockerfile
+    image: laura
+    ports:
+      - '3000:3000'
+      - '2000:2000'
+    volumes: 
+      - /c/Users/internship:/opt/app
+  
